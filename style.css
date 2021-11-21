@@ -1,0 +1,83 @@
+body{
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px auto;
+    padding: 0px auto;
+    background: url("https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;   
+    background-position: center;
+}
+        .left{
+            display: inline-block;
+               
+               position: absolute;
+               left: 30px;
+               top: 20px;
+        }
+        .left img{
+            width: 60px;
+            padding-left: 12px;
+            
+            
+        }
+        .left div{
+         text-align: center center;
+        }
+        .mid{
+            display: block;
+            width: 40%;
+            margin: 4px auto; 
+              
+
+        }
+        .right{
+            position: absolute;
+            right: 50px;
+            top: 20px;
+            display: inline-block;
+            
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 22px;
+            
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 69px 14px;
+        }
+        .navbar li a:hover, .navbar li a.active{
+               text-decoration: underline;
+               color:gray;
+        }
+        .btn{
+              margin: 3px 4px;
+              background-color: black;
+              color: white;
+              padding: 0px 0px;   
+             border-radius:30px;
+             font-size: 20px;
+             cursor: pointer;
+
+        }
+        .container{
+            margin-top: 10px;
+            text-align: center;
+            padding: 7rem;
+            font-size: 30px;
+        }
+        .container package-col{
+
+            font-size: 10px;
+        }
+        .bt{
+            font-size: 20px;
+            border-radius: 7rem;
+
+        }
+        
+           
